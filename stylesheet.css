@@ -3,14 +3,6 @@ html {
   width: 100%;
 }
 
-h1 {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-p {
-  color: black;
-}
-
 body {
   background-color: lightskyblue;
 }
@@ -33,6 +25,7 @@ body {
     }
 
     #d1 {
+        border: 5px solid black;
         font-size: 20pt;
         text-align: center;
         background-color: lightskyblue;
@@ -40,25 +33,26 @@ body {
         grid-column-end: 4;
     }
     #d2 {
+        border: 5px solid black;
         font-size: 20pt;
         text-align: center;
         background-color: lightskyblue;
         grid-column-start: 1;
-        grid-column-end: 1;
-        grid-row-start: 2;
-        grid-row-end: 2;
+        grid-column-end: 3;
+        
       
     }
     #d3 {
-        margin-left: 50%;
-        margin-right: 15%;
+        border: 5px solid black;
         font-size: 20pt;
         text-align: center;
         background-color: lightskyblue;
-        grid-column-start: 2;
+        grid-column-start: 3;
         grid-column-end: 4;
     }
     #d4 {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        border: 5px solid black;
         font-size: 20pt;
         text-align: center;
         background-color: lightskyblue;
@@ -67,9 +61,45 @@ body {
     }
 
     #d5 {
+        border: 5px solid black;
         font-size: 15pt;
         text-align: center;
         background-color: lightskyblue;
         grid-column-start: 1;
         grid-column-end: 4;
+    }
+
+    table {
+      border: 1px solid black;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      
+    }
+
+    th {
+      border: 1px solid black;
+      background-color: black;
+      color: white;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    td {
+      border: 1px solid black;
+      color: darkblue;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    header {
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    nav {
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    main {
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    footer {
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
