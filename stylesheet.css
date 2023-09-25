@@ -1,0 +1,75 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+  color: black;
+}
+
+body {
+  background-color: lightskyblue;
+}
+
+.center {
+  display: block;
+  margin-left: 0%;
+  margin-right: 0%;
+  width: 100%;
+  /* code source: https://www.w3schools.com */ 
+}
+
+#layout {
+  display: grid;
+    grid-template-areas:
+    'header header header'
+    'nav main main'
+    'main main main'
+    'footer footer footer'
+    }
+
+    #d1 {
+        font-size: 20pt;
+        text-align: center;
+        background-color: lightskyblue;
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+    #d2 {
+        font-size: 20pt;
+        text-align: center;
+        background-color: lightskyblue;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 2;
+        grid-row-end: 2;
+      
+    }
+    #d3 {
+        margin-left: 50%;
+        margin-right: 15%;
+        font-size: 20pt;
+        text-align: center;
+        background-color: lightskyblue;
+        grid-column-start: 2;
+        grid-column-end: 4;
+    }
+    #d4 {
+        font-size: 20pt;
+        text-align: center;
+        background-color: lightskyblue;
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+
+    #d5 {
+        font-size: 15pt;
+        text-align: center;
+        background-color: lightskyblue;
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
