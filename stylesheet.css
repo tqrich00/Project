@@ -7,10 +7,34 @@ body {
   background-color: lightskyblue;
 }
 
+h1 {
+  color: darkblue;
+}
+
+h2 {
+  color: darkblue;
+}
+
+h3 {
+  color: darkblue;
+}
+
+h4 {
+  color: darkblue;
+}
+
+p {
+  color: darkblue;
+}
+
+h5 {
+  color: darkblue;
+}
+
 .center {
   display: block;
   margin-left: 0%;
-  margin-right: 0%;
+  margin-right: 15%;
   width: 100%;
   /* code source: https://www.w3schools.com */ 
 }
