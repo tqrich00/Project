@@ -105,10 +105,12 @@ body {
       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
 
-    ol, #I {
+    .i1 {
       background-color: rgb(255, 80, 80);
     }
 
-    ol, #i {
-      background-color: rgb(102, 255, 102);
+    .i2 {
+      background-color: rgb(102, 255, 80);
     }
+
+    
