@@ -25,3 +25,19 @@ document.addEventListener('DOMContentLoaded', function() {
         }
       });
     });
+
+var canvas = document.getElementById("myCanvas");
+var ctx = canvas.getContext("2d");
+
+ctx.font = "40px Arial";
+ctx.fillStyle = "red";
+ctx.textAlign = "center";
+
+var text = "Coding is FUN!";
+
+var canvasWidth = canvas.width;
+var canvasHeight = canvas.height;
+var centerX = canvasWidth / 2;
+var centerY = canvasHeight / 2;
+
+ctx.fillText(text, centerX, centerY);

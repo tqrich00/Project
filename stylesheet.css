@@ -43,8 +43,7 @@ h5 {
   display: grid; 
     grid-template-areas:
     'header header header'
-    'nav main main'
-    'main main main'
+    'nav main aside'
     'footer footer footer'
     }
 
@@ -62,7 +61,7 @@ h5 {
         text-align: center;
         background-color: lightskyblue;
         grid-column-start: 1;
-        grid-column-end: 3;
+        grid-column-end: 2;
         
       
     }
@@ -71,8 +70,8 @@ h5 {
         font-size: 20pt;
         text-align: center;
         background-color: lightskyblue;
-        grid-column-start: 3;
-        grid-column-end: 4;
+        grid-column-start: 2;
+        grid-column-end: 3;
     }
     #d4 {
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -80,7 +79,7 @@ h5 {
         font-size: 20pt;
         text-align: center;
         background-color: lightskyblue;
-        grid-column-start: 1;
+        grid-column-start: 3;
         grid-column-end: 4;
     }
 
@@ -136,4 +135,28 @@ h5 {
     .i2 {
       background-color: rgb(102, 255, 80);
     }
-    
+
+  #myCanvas { 
+    border: 1px solid red;
+    } 
+
+ /* code source: https://www.tutorialspoint.com */ 
+
+
+
+@media screen and (max-width: 768px) {
+  #layout {
+    grid-template-areas:
+      'header'
+      'nav'
+      'main'
+      'aside'
+      'footer';
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+  #d1, #d2, #d3, #d4, #d5 {
+    grid-area: auto;
+    background-color: darkcyan;
+  }
+}
