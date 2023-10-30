@@ -5,86 +5,81 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>Page 1</title>
-    <style>
-    @import url("stylesheet.css");
-  </style>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
 </head>
 
-  <!-- Trevor Richards, CPSC2125 -->
-
 <body>
+  <div id="layout">
+    <div id="d1">
+      <header>
+        <img src="images/SunnyField.jpg" class="center" height="300" width="1800" tabindex="1">
+        <center>
+          <h1 tabindex="2">What have we learned? HTML!</h1>
+        </center>
+      </header>
+    </div>
 
-<div id="layout">
-<div id="d1"> 
-<header>
-    <img src="images/SunnyField.jpg" class=center height=300 width=1800></img>
-  <center>
-<h1>What have we learned? HTML!</h1>
-  </center>
-</header>
-</div>
+    <div id="d2">
+      <nav tabindex="3">
+        <h3>Navigate to:</h3>
+        <ul style="list-style-type:none;">
+          <li><a href="index.html" tabindex="4">Home</a></li>
+          <li><a href="page1.html" tabindex="5">Page 1</a></li>
+          <li><a href="page2.html" tabindex="6">Page 2</a></li>
+          <li><a href="page3.html" tabindex="7">Page 3</a></li>
+          <li><a href="https://www.columbusstate.edu/" tabindex="8">CSU Homepage</a></li>
+        </ul>
+      </nav>
+    </div>
 
-<div id="d2">   
-  <nav>
-    <h3>Navigate to:</h3>
-  <ul style="list-style-type:none;">
-    <li><a href="index.html">Home</a></li>
-    <li><a href="page1.html">Page 1</a></li>
-    <li><a href="page2.html">Page 2</a></li>
-    <li><a href="page3.html">Page 3</a></li>
-    <li><a href="https://www.columbusstate.edu/">CSU Homepage</a></li> 
-  </ul>
-  </nav>
-</div>
+    <div id="d3">
+      <main tabindex="9">
+        <ol class="i1" type="I" tabindex="10">
+          <li>Headers</li>
+        </ol>
 
-<div id="d3">
-  <ol class=i1 type="I">
-  <li>Headers</li>
-  </ol>
+        <ol class="i2" type="i" tabindex="11">
+          <li>Headers can be displayed in various levels from 1-6.</li>
+          <li>Headers are block tags and they are used to open and close block elements.</li>
+        </ol>
 
-  <ol class=i2 type="i">
-  <li>Headers can be displayed in various levels from 1-6.</li>
-  <li>Headers are block tags and they are used to open and close block elements.</li>
-  </ol>
-    
-  <ol class=i1 type="I">
-  <li>Paragraphs</li>
-  </ol>
+        <ol class="i1" type="I" tabindex="12">
+          <li>Paragraphs</li>
+        </ol>
 
-  <ol class=i2 type="i">
-  <li>Paragraph tags are used to seperate blocks of text.</li>
-  <li>Like headings, paragraphs are also block tags.</li>
-  </ol>
+        <ol class="i2" type="i" tabindex="13">
+          <li>Paragraph tags are used to separate blocks of text.</li>
+          <li>Like headings, paragraphs are also block tags.</li>
+        </ol>
 
-  <ol class=i1 type="I">
-  <li>Semantic Tags</li>
-  </ol>
+        <ol class="i1" type="I" tabindex="14">
+          <li>Semantic Tags</li>
+        </ol>
 
-  <ol class=i2 type="i">
-  <li>Semantic tags are utilized when structuring your webpage.</li>
-  <li>They also assist individuals with screen readers by understanding which part of the page they are on.</li>
-  </ol>
+        <ol class="i2" type="i" tabindex="15">
+          <li>Semantic tags are utilized when structuring your webpage.</li>
+          <li>They also assist individuals with screen readers by understanding which part of the page they are on.</li>
+        </ol>
+      </main>
+    </div>
 
-</main>  
-</div>
+    <div id="d4">
+      <aside>
+        <canvas id="myCanvas" width="400" height="200" aria-label="A canvas displaying the text 'Coding is FUN!'" role="img" tabindex="16"></canvas>
+        <script src="script.js"></script>
+      </aside>
+    </div>
 
-<div id="d4">   
-<aside>
-    <canvas id="myCanvas" width="400" height="200" aria-label="A canvas displaying the text 'Coding is FUN!;'" role="img"></canvas>
-    <script src="script.js"></script>
-</aside>   
-</div>
-
-<div id="d5"> 
-<footer>
-  <center>
-      <h3>Contact Info</h3>
-      <p>Email: richards_trevor@students.columbusstate.edu</p>
-      <p>Phone: 706-111-1234</p>
-  </center>
-</footer>
-</div>
-  
+    <div id="d5">
+      <footer tabindex="17">
+        <center>
+          <h3 tabindex="18">Contact Info</h3>
+          <p tabindex="19">Email: richards_trevor@students.columbusstate.edu</p>
+          <p tabindex="20">Phone: 706-111-1234</p>
+        </center>
+      </footer>
+    </div>
+  </div>
 </body>
 
 </html>

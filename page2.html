@@ -5,91 +5,81 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>Page 2</title>
-    <style>
-    @import url("stylesheet.css");
-  </style>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
 </head>
 
-  <!-- Trevor Richards, CPSC2125 -->
-
 <body>
+  <div id="layout">
+    <div id="d1">
+      <header>
+        <img src="images/SunnyField.jpg" class="center" height="300" width="1800" tabindex="1">
+        <center>
+          <h1 tabindex="2">HTML Attributes and Elements</h1>
+        </center>
+      </header>
+    </div>
 
-<div id="layout">
-<div id="d1"> 
-<header>
-    <img src="images/SunnyField.jpg" class=center height=300 width=1800></img>
-  <center>
-<h1>HTML Attributes and Elements</h1>
-  </center>
-</header>
-</div>
+    <div id="d2">
+      <nav tabindex="3">
+        <h3>Navigate to:</h3>
+        <ul style="list-style-type:none;">
+          <li><a href="index.html" tabindex="4">Home</a></li>
+          <li><a href="page1.html" tabindex="5">Page 1</a></li>
+          <li><a href="page2.html" tabindex="6">Page 2</a></li>
+          <li><a href="page3.html" tabindex="7">Page 3</a></li>
+          <li><a href="https://www.columbusstate.edu/" tabindex="8">CSU Homepage</a></li>
+        </ul>
+      </nav>
+    </div>
 
-<div id="d2">   
-  <nav>
+    <div id="d3">
+      <center>
+        <table tabindex="9">
+          <tr>
+            <th>HTML Tags</th>
+            <th>HTML Attributes</th>
+          </tr>
+          <tr>
+            <td>&lt;h1&gt; Headers</td>
+            <td>&lt;id&gt; Specifies element</td>
+          </tr>
+          <tr>
+            <td>&lt;p&gt; Paragraphs</td>
+            <td>&lt;title&gt; Name of element</td>
+          </tr>
+          <tr>
+            <td>&lt;b&gt; Bold</td>
+            <td>&lt;class&gt; Specifies classname for element</td>
+          </tr>
+          <tr>
+            <td>&lt;i&gt; Italics</td>
+            <td>&lt;style&gt; Inline CSS element</td>
+          </tr>
+          <tr>
+            <td>&lt;u&gt; Underline</td>
+            <td>&lt;src&gt; Specifies URL of media</td>
+          </tr>
+        </table>
+      </center>
+      <!-- code source: https://www.w3schools.com */ -->
+    </div>
 
-    <h3>Navigate to:</h3>
+    <div id="d4">
+      <aside>
+        <iframe src="https://lab1.tqrich00.repl.co/" title="A basic HTML website discussing the Call of Duty Champions, the New York Subliners." width="400" height="300" tabindex="10"></iframe>
+      </aside>
+    </div>
 
-  <ul style="list-style-type:none;">
-    <li><a href="index.html">Home</a></li>
-    <li><a href="page1.html">Page 1</a></li>
-    <li><a href="page2.html">Page 2</a></li>
-    <li><a href="page3.html">Page 3</a></li>
-    <li><a href="https://www.columbusstate.edu/">CSU Homepage</a></li> 
-  </ul>
-  </nav>
-</div>
-
-<div id="d3">
-  <center>
-  <table>
-    <tr>
-      <th>HTML Tags</th>
-      <th>HTML Attributes</th>
-    </tr>
-    <tr>
-      <td>&lt;h1&gt; Headers</td>
-      <td>&lt;id&gt; Specifies element</td>
-    </tr>
-    <tr>
-      <td>&lt;p&gt; Paragraphs</td>
-      <td>&lt;title&gt; Name of element</td>
-    </tr>
-    <tr>
-      <td>&lt;b&gt; Bold</td>
-      <td>&lt;class&gt; Specifies classname for element</td>
-    </tr>
-    <tr>
-      <td>&lt;i&gt; Italics</td>
-      <td>&lt;style&gt; Inline CSS element</td>
-    </tr>
-    <tr>
-      <td>&lt;u&gt; Underline</td>
-      <td>&lt;src&gt; Specifies URL of media</td>
-    </tr>
-  </table>
-    </center>
-
-    <!-- code source: https://www.w3schools.com */ -->
-  
-</main>  
-</div>
-
-<div id="d4">   
-<aside>
-    <iframe src="https://lab1.tqrich00.repl.co/" title="A basic HTML website discussing the Call of Duty Champions, the New York Subliners." width="400" height="300"></iframe>
-</aside> 
+    <div id="d5">
+      <footer tabindex="11">
+        <center>
+          <h3 tabindex="12">Contact Info</h3>
+          <p tabindex="13">Email: richards_trevor@students.columbusstate.edu</p>
+          <p tabindex="14">Phone: 706-111-1234</p>
+        </center>
+      </footer>
+    </div>
   </div>
-
-<div id="d5"> 
-<footer>
-  <center>
-      <h3>Contact Info</h3>
-      <p>Email: richards_trevor@students.columbusstate.edu</p>
-      <p>Phone: 706-111-1234</p>
-  </center>
-</footer>
-</div>
-  
 </body>
 
 </html>
