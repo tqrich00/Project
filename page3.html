@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Page 2</title>
+    <style>
+    @import url("stylesheet.css");
+  </style>
+  <script src="script.js"></script>
+</head>
+
+  <!-- Trevor Richards, CPSC2125 -->
+
+<body>
+
+<div id="layout">
+<div id="d1"> 
+<header>
+    <img src="images/SunnyField.jpg" class=center height=300 width=1800></img>
+  <center>
+<h1>Path of Light Yoga Studio</h1>
+  </center>
+</header>
+</div>
+
+<div id="d2">   
+  <nav>
+
+    <h3>Navigate to:</h3>
+
+  <ul style="list-style-type:none;">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="page1.html">Page 1</a></li>
+    <li><a href="page2.html">Page 2</a></li>
+    <li><a href="page3.html">Page 3</a></li>
+    <li><a href="https://www.columbusstate.edu/">CSU Homepage</a></li> 
+  </ul>
+  </nav>
+</div>
+
+<div id="d3">   
+<main>
+  <img src="images/Yoga.png" class=center height=300 width=800></img>
+</div>
+  
+<div id="d4">
+<form id="myForm"
+<h2><u>Interested? Fill out the form for more information!</u></h2><br>
+  
+<form action="https://webdevbasics.net/scripts/yoga.php" method="post">
+<label for="fname">First name:</label><br>
+<input type="text" id="fname" name="fname" maxlength="50" placeholder="Enter your first name"><br>
+    
+<label for="lname">Last name:</label><br>
+<input type="text" id="lname" name="lname" maxlength="50" placeholder="Enter your last name"><br>
+
+<label for="birth_year">Birth Year:</label><br>
+<input type="number" name="birth_year" id="birth_year" min="1900" max="2023" placeholder="Ex: 1976"><br>
+
+  <label for="email">Email:</label><br>
+  <input type="email" name="email" id="email" placeholder="example@example.com"><br>
+
+  <label for="username">Username</label><br>
+  <input type="text" name="username" id="username" required minlength="5" maxlength="10" 
+   placeholder="Enter a username"><br>
+
+  <label for="password">Password:</label><br>
+  <input type="password" name="password" id="password" required minlength="8" placeholder="Enter a password"><br>
+
+  <label for="confirm_password">Reenter Password:</label><br>
+  <input type="password" name="confirm_password" id="confirm_password" required minlength="8" placeholder="Reenter your password"><br>
+
+  <label for="phone_number">Phone Number:</label><br>
+  <input type="tel" name="phone_number" id="phone_number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="###-###-####"><br>
+
+  <input type="submit" value="Submit">
+  </form>
+</div>
+
+  <!-- code source: https://www.w3schools.com -->
+
+    
+</main>  
+</div>
+
+<div id="d5"> 
+<footer>
+  <center>
+      <h3>Contact Info</h3>
+      <p>Email: richards_trevor@students.columbusstate.edu</p>
+      <p>Phone: 706-111-1234</p>
+  </center>
+</footer>
+</div>
+  
+</body>
+
+</html>

@@ -40,7 +40,7 @@ h5 {
 }
 
 #layout {
-  display: grid;
+  display: grid; 
     grid-template-areas:
     'header header header'
     'nav main main'
@@ -136,5 +136,4 @@ h5 {
     .i2 {
       background-color: rgb(102, 255, 80);
     }
-
     
